@@ -1,0 +1,48 @@
+body{color: red;
+background-image: url(https://static.wikia.nocookie.net/p__/images/2/20/Dragon_Sky.jpg/revision/latest?cb=20190831230038&path-prefix=protagonist);}
+#container{width: 1024px; background-color: lightgray; margin: 0 auto;display: flex; padding: 10px; flex-wrap: wrap; opacity: 1;}
+#header{background-color: lightcyan; flex-basis: 100%; opacity: 1;}
+#content{background-color: gray ; display: flex; opacity: 1;}
+#nav{background-color: lightblue; flex-grow: 1; opacity: 1;}
+#main{background-color:lightcoral ; flex-grow: 4; opacity: 1;}
+#footer{background-color: lightgoldenrodyellow; flex-basis: 100%;text-align: right; opacity: 1;}
+#header, #nav, #main, #footer{ padding: 20px;}
+
+/*.............01/07/2024 content....*/
+
+#nav li{
+list-style-type: none;
+padding: 10px 0;}
+
+
+#nav a{
+    display: block; 
+    height: 50px;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 0 30px;
+    background-color: blue;
+    transition: background-color 1s, height 1s, line-height 1s;
+    line-height: 50px;
+    
+}
+
+#nav a:hover{
+    background-color: white;
+    height: 80px;
+    line-height: 80px;
+}
+
+#nav a:active{/* when mouse is clicking it*/
+    background-color: red;
+}
+p{ transition: color 1s; font-size: 1s;}
+p:hover{color: black; font-size: 22px;}
+p:active{ color: green;}
+h1:hover, h2:hover, h3:hover{ color: black;}
+.card{
+display: inline-flex;
+justify-content: flex-end;
+align-items: center;
+gap: 10px;
+background: linear-gradient(160deg, #999 9.07%, #880B0B 97.28%);}
